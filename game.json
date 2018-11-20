@@ -1,0 +1,120 @@
+{
+	"width": 576,
+	"height": 324,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"window_manager_icons": {
+			"type": "image",
+			"width": 128,
+			"height": 160,
+			"path": "image/window_manager_icons.png"
+		},
+		"piece": {
+			"type": "script",
+			"path": "script/piece.js",
+			"global": true
+		},
+		"set_initial_locations": {
+			"type": "script",
+			"path": "script/set_initial_locations.js",
+			"global": true
+		},
+		"help_screen_solo": {
+			"type": "image",
+			"width": 640,
+			"height": 480,
+			"path": "image/help_screen_solo.png"
+		},
+		"diamonds_plate": {
+			"type": "image",
+			"width": 128,
+			"height": 64,
+			"path": "image/diamonds_plate.png"
+		},
+		"help_screen": {
+			"type": "image",
+			"width": 640,
+			"height": 480,
+			"path": "image/help_screen.png"
+		},
+		"content_config": {
+			"type": "script",
+			"path": "script/content_config.js",
+			"global": true
+		},
+		"admin_control": {
+			"type": "script",
+			"path": "script/self/admin_control.js",
+			"global": true
+		},
+		"commenting": {
+			"type": "script",
+			"path": "script/self/commenting.js",
+			"global": true
+		},
+		"common": {
+			"type": "script",
+			"path": "script/self/common.js",
+			"global": true
+		},
+		"common_control": {
+			"type": "script",
+			"path": "script/self/common_control.js",
+			"global": true
+		},
+		"confirm": {
+			"type": "script",
+			"path": "script/self/confirm.js",
+			"global": true
+		},
+		"help": {
+			"type": "script",
+			"path": "script/self/help.js",
+			"global": true
+		},
+		"player": {
+			"type": "script",
+			"path": "script/self/player.js",
+			"global": true
+		},
+		"pointer": {
+			"type": "script",
+			"path": "script/self/pointer.js",
+			"global": true
+		},
+		"process": {
+			"type": "script",
+			"path": "script/self/process.js",
+			"global": true
+		},
+		"statusbar": {
+			"type": "script",
+			"path": "script/self/statusbar.js",
+			"global": true
+		},
+		"window_manager": {
+			"type": "script",
+			"path": "script/self/window_manager.js",
+			"global": true
+		},
+		"message_event_manager": {
+			"type": "script",
+			"path": "script/self/message_event_manager.js",
+			"global": true
+		}
+	},
+	"environment": {
+		"niconico": {
+			"supportedModes": [
+				"multi"
+			]
+		},
+		"sandbox-runtime": "2"
+	}
+}
